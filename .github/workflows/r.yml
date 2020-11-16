@@ -27,4 +27,3 @@ jobs:
         with:
           r-version: ${{ matrix.R }}
       - run: Rscript -e 'print("hello")'
-      - run: Rscript ./code/Run_all.R
