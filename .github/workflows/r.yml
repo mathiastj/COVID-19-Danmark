@@ -28,4 +28,4 @@ jobs:
     - name: Hell world
       run: Rscript -e 'print("hello")'
     - name: Run all
-        run: Rscript ./code/Run_all.R
+      run: Rscript ./code/Run_all.R
