@@ -25,7 +25,7 @@ jobs:
     - uses: r-lib/actions/setup-r@v1
       with:
         r-version: '3.5.3' # The R version to download (if necessary) and use.
-    - name: Hell world
+    - name: Hello world
       run: Rscript -e 'print("hello")'
     - name: Install dependencies
       run: |
@@ -36,5 +36,6 @@ jobs:
         install.packages("colorspace", dependencies = TRUE)
         install.packages("ggthemes", dependencies = TRUE)
         install.packages("magick", dependencies = TRUE)
+      shell: Rscript {0}
     - name: Run all
       run: Rscript ./code/Run_all.R
