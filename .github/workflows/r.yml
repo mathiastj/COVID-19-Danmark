@@ -24,7 +24,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: r-lib/actions/setup-r@v1
       with:
-        r-version: '3.5.3' # The R version to download (if necessary) and use.
+        r-version: '3.6.1' # The R version to download (if necessary) and use.
     - name: Hello world
       run: Rscript -e 'print("hello")'
     - name: Install dependencies
