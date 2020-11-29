@@ -27,8 +27,5 @@ jobs:
         r-version: '3.6.1' # The R version to download (if necessary) and use.
     - name: Hello world
       run: Rscript -e 'print("hello")'
-    - name: Install dependencies
-      run: |
-        Rscript -e 'install.packages("tidyverse", dependencies = TRUE)'
     - name: Run all
       run: Rscript ./code/Run_all.R
