@@ -1,3 +1,11 @@
+install.packages("tidyverse", dependencies = TRUE)
+install.packages("magrittr", dependencies = TRUE)
+install.packages("lubridate", dependencies = TRUE)
+install.packages("scales", dependencies = TRUE)
+install.packages("colorspace", dependencies = TRUE)
+install.packages("ggthemes", dependencies = TRUE)
+install.packages("magick", dependencies = TRUE)
+
 library(tidyverse)
 library(magrittr)
 library(lubridate)
